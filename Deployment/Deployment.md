@@ -42,14 +42,16 @@ Insert the following lines into file ```/etc/rc.local```.
 ```
 sudo pip3 install pytest
 sudo pip3 install bitcoinexchangefh
+sudo pip3 install sqlite-web
 ```
 
 ## Port usage
 
-|Port  |Application     |
-|------|----------------|
-|6001  |Feed handler    |
-|9999  |Unit test used  |
-|8001  |Redis Commander |
-|8080  |Jenkins         |
-|6379  |Redis server    |
+|Port  |Application       |
+|------|------------------|
+|6001  |Feed handler      |
+|9999  |Unit test used    |
+|8001  |Redis Commander   |
+|9000  |Sqlite webbrowser |
+|8080  |Jenkins           |
+|6379  |Redis server      |
